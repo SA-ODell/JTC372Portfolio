@@ -68,6 +68,15 @@ img:hover{
   margin-right: auto;
 }
 
+.projecticon {
+  /*width: 400px;*/
+  height: 200px;
+	border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+	padding-right: 10px;
+}
+
 .projectlinks {
   display: grid;
   margin-left: auto;
