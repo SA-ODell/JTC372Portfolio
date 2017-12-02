@@ -1,54 +1,60 @@
-body{
-	font-family: 'Bitter', serif;
-	font-size: 1.5em;
+body {
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
   color: #2E4057;
   background-color: #729EA1;
 }
-h1{
-	font-family: 'Oswald', sans-serif;
+
+h1 {
+  font-family: 'Oswald', sans-serif;
   color: #2E4057;
-	font-size: 3rem;
-	margin: 0.67em;
+  font-size: 3rem;
+  margin: 0.67em;
 }
-header h1{
+
+header h1 {
   text-align: center;
 }
-header h2{
+
+header h2 {
   text-align: center;
   color: #2E4057;
-	margin-left:
-  margin-bottom: 2rem;
+  margin-left: margin-bottom: 2rem;
 }
-nav {
-  width:  100%;
-  margin: 20px;
+
+header nav {
+  width: 80%;
+  margin: 10px;
 }
+
 nav ul {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px
 }
+
 nav ul li {
-    width: 20%;
-    margin: 1em;
-    display: block;
-    float: left;
-    border-style: solid;
-    border-width: thin;
-    border-color: white;
+  display: grid;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
 }
+
 nav ul li a {
   text-decoration: none;
   color: #2E4057;
 }
+
 nav ul li a:hover {
   color: white;
 }
 
 ul.devicons {
-	font-size: 2em;
-	margin-top: 10rem;
-	list-style-type: none;
-	text-align: center;
-	color: #2E4057;
+  font-size: 2em;
+  margin-top: 10rem;
+  list-style-type: none;
+  text-align: center;
+  color: #2E4057;
 }
 
 .headergrid {
@@ -61,14 +67,17 @@ ul.devicons {
   grid-column-gap: 200px;
   margin-bottom: 200px;
 }
-img.avatar{
-	border-radius: 400px;
-	border: 5px solid #fff;
+
+img.avatar {
+  border-radius: 400px;
+  border: 5px solid #fff;
   float: left;
 }
-img:hover{
-  opacity:0.8;
+
+img:hover {
+  opacity: 0.8;
 }
+
 .image {
   /*width: 400px;*/
   height: 200px;
@@ -79,10 +88,10 @@ img:hover{
 .projecticon {
   /*width: 400px;*/
   height: 200px;
-	border-radius: 20px;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
-	padding-right: 10px;
+  padding-right: 10px;
 }
 
 .projectlinks {
@@ -96,7 +105,6 @@ img:hover{
   grid-column-gap: 200px;
   grid-row-gap: 5px;
   color: #353535;
-
 }
 
 /*.row2 a {
@@ -105,25 +113,43 @@ img:hover{
 }*/
 
 /*Footer style from Font-Awesome*/
-ul.social{
-	display: block;
-	margin: 5% 0;
-	list-style-type: none;
-	text-align: center;
+
+ul.social {
+  display: block;
+  margin: 5% 0;
+  list-style-type: none;
+  text-align: center;
 }
-ul.social li{
-	font-size: 3em;
-	display: inline;
-	padding: 0 2%;
+
+ul.social li {
+  font-size: 3em;
+  display: inline;
+  padding: 0 2%;
 }
-ul.social li a{
-	color: #2E4057;
+
+ul.social li a {
+  color: #2E4057;
 }
-ul.social li.twitter a:hover{color: white;}
-ul.social li.github a:hover{color: white;}
-ul.social li.linkedin a:hover{color: white;}
-ul.social li.email a:hover{color: white;}
-ul.social li.piedpiper a:hover{color: white;}
+
+ul.social li.twitter a:hover {
+  color: white;
+}
+
+ul.social li.github a:hover {
+  color: white;
+}
+
+ul.social li.linkedin a:hover {
+  color: white;
+}
+
+ul.social li.email a:hover {
+  color: white;
+}
+
+ul.social li.piedpiper a:hover {
+  color: white;
+}
 
 p.copyright {
   font-family: 'Bitter', serif;
