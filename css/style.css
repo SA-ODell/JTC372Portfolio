@@ -113,18 +113,18 @@ ul.devicons {
 	margin-bottom: 20px;
 }
 
+/* needed for the floated layout */
 .project-header, .project-footer {
   grid-column: 1 / -1;
-  /* needed for the floated layout */
   clear: both;
 }
-
-@supports (display: grid) {
+/*@supports (display: grid) {
   .wrapper>* {
     width: auto;
     margin: 0;
   }
-}
+}*/
+
 
 .projecticon {
   /*width: 400px;*/
