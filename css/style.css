@@ -152,6 +152,10 @@ ul.devicons {
 	margin-left: 100px;
 }
 
+h1.basecase {
+	text-align: center;
+	padding-top: 100px;
+}
 ul.social {
   display: block;
   margin: 5% 0;
@@ -193,5 +197,6 @@ p.copyright {
   font-family: 'Bitter', serif;
   font-size: 1em;
   color: #2E4057;
-  margin-top: 2em;
+  margin-top: 100px;
+	margin-bottom: 200px;
 }
